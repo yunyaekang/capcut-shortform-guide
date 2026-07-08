@@ -10,6 +10,7 @@ export const STEPS: Step[] = [
     encouragement: '캡컷 화면이 열리면 잘 하고 계신 거예요!',
     reassurance: '혹시 화면이 안 열려도 괜찮아요, 아이콘을 한 번 더 톡 눌러보세요',
     placeholderLabel: '스마트폰 홈 화면 속 캡컷 아이콘',
+    screenshot: '/screenshots/step-01.jpg',
     highlight: { top: 50, left: 50, size: 26, label: '여기를 톡!' },
   },
   {
@@ -19,6 +20,7 @@ export const STEPS: Step[] = [
     encouragement: '로그인이 끝나고 캡컷 첫 화면이 보이면 잘 하고 계신 거예요!',
     reassurance: '어떤 방법으로 로그인해도 캡컷은 똑같이 사용할 수 있어요, 마음 편히 골라주세요',
     placeholderLabel: '로그인 방법을 고르는 화면 (틱톡 / 구글 / 이메일 / 페이스북)',
+    screenshot: '/screenshots/step-02.jpg',
     highlight: { top: 46, left: 50, size: 22, label: '이 중 하나 선택' },
     tip: '구글 계정이 있으시면 구글로 로그인하는 게 제일 빠르고 쉬워요',
   },
@@ -29,6 +31,7 @@ export const STEPS: Step[] = [
     encouragement: '내 사진과 동영상 목록이 화면에 쭉 보이면 잘 하고 계신 거예요!',
     reassurance: '버튼이 잘 안 보이면 화면을 살짝 위아래로 움직여서 찾아보세요',
     placeholderLabel: '캡컷 첫 화면의 + 만들기 버튼',
+    screenshot: '/screenshots/step-03.jpg',
     highlight: { top: 62, left: 50, size: 24, label: '+ 만들기' },
   },
   {
@@ -38,6 +41,7 @@ export const STEPS: Step[] = [
     encouragement: '고른 사진에 체크 표시(✓)가 생기면 잘 하고 계신 거예요!',
     reassurance: '여러 장을 쓰고 싶으면 순서대로 여러 개를 눌러도 괜찮아요',
     placeholderLabel: '내 스마트폰 사진첩이 보이는 화면',
+    screenshot: '/screenshots/step-04.jpg',
     highlight: { top: 40, left: 34, size: 20, label: '톡 눌러서 선택' },
     tip: '사진을 다 골랐으면 화면 오른쪽 아래 "다음" 버튼을 눌러주세요',
   },
@@ -48,6 +52,7 @@ export const STEPS: Step[] = [
     encouragement: '이 화면이 조금 낯설어도 괜찮아요, 이제부터 하나씩 천천히 알려드릴게요!',
     reassurance: '실수로 뭔가를 눌러도 왼쪽 위 되돌리기 버튼을 누르면 언제든 되돌릴 수 있어요',
     placeholderLabel: '캡컷 편집 화면 (위쪽: 미리보기, 아래쪽: 타임라인)',
+    screenshot: '/screenshots/step-05.jpg',
     highlight: { top: 82, left: 50, size: 30, label: '타임라인' },
   },
   {
@@ -57,6 +62,7 @@ export const STEPS: Step[] = [
     encouragement: '노래 목록이 화면에 쭉 나오면 잘 하고 계신 거예요!',
     reassurance: '아무 노래나 눌러서 먼저 들어봐도 괜찮아요, 마음이 바뀌면 다른 곡으로 또 바꿀 수 있어요',
     placeholderLabel: '편집 화면 아래 메뉴 (음표 아이콘)',
+    screenshot: '/screenshots/step-07.jpg',
     highlight: { top: 88, left: 30, size: 16, label: '음악 아이콘' },
     tip: '마음에 드는 곡을 미리 들어보고, + 버튼을 톡 누르면 영상에 추가돼요',
   },
@@ -67,6 +73,7 @@ export const STEPS: Step[] = [
     encouragement: '글자를 입력할 수 있는 화면이 나오면 잘 하고 계신 거예요!',
     reassurance: '글자는 나중에 언제든지 다시 눌러서 고칠 수 있어요, 지금은 편하게 눌러보세요',
     placeholderLabel: '편집 화면 아래 메뉴 (T 글자 아이콘)',
+    screenshot: '/screenshots/step-10.jpg',
     highlight: { top: 88, left: 50, size: 16, label: '글자 추가' },
   },
   {
@@ -76,6 +83,7 @@ export const STEPS: Step[] = [
     encouragement: '글자 모양이 바로바로 바뀌는 게 보이면 잘 하고 계신 거예요!',
     reassurance: '여러 번 눌러봐도 괜찮아요, 마음에 드는 스타일을 편하게 골라보세요',
     placeholderLabel: '글자 스타일 선택 화면 (글꼴 / 색깔 / 크기)',
+    screenshot: '/screenshots/step-11.jpg',
     highlight: { top: 80, left: 50, size: 20, label: '스타일 선택' },
     tip: '가게를 홍보하는 영상이라면 눈에 확 띄는 굵고 큰 글씨를 추천드려요',
   },
@@ -86,6 +94,7 @@ export const STEPS: Step[] = [
     encouragement: '글자에 반짝이는 효과가 생기면 잘 하고 계신 거예요!',
     reassurance: '효과가 마음에 안 들면 다른 효과를 다시 톡 눌러서 얼마든지 바꿀 수 있어요',
     placeholderLabel: '글자 꾸밈 효과를 고르는 화면',
+    screenshot: '/screenshots/step-12.jpg',
     highlight: { top: 78, left: 35, size: 18, label: '효과 탭' },
   },
   {
@@ -95,6 +104,7 @@ export const STEPS: Step[] = [
     encouragement: '미리보기 화면에서 글자가 움직이면 잘 하고 계신 거예요!',
     reassurance: '어떤 움직임을 골라도 다 예뻐요, 마음 가는 대로 편하게 골라주세요',
     placeholderLabel: '글자 애니메이션(등장/퇴장 효과)을 고르는 화면',
+    screenshot: '/screenshots/step-13.jpg',
     highlight: { top: 78, left: 65, size: 18, label: '애니메이션 탭' },
   },
   {
@@ -104,6 +114,7 @@ export const STEPS: Step[] = [
     encouragement: '문구가 화면에 딱 나타나면 잘 하고 계신 거예요!',
     reassurance: '문구가 잘 안 떠오르셔도 괜찮아요, 바로 아래 예시 모음을 참고하시면 돼요',
     placeholderLabel: '글자 입력 칸이 열린 화면',
+    screenshot: '/screenshots/step-14.jpg',
     highlight: { top: 70, left: 50, size: 20, label: '여기에 입력' },
     tip: '아래 "홍보 문구 예시 모음"에서 마음에 드는 문구를 톡 누르면 바로 복사할 수 있어요',
     linkToPhrases: true,
@@ -115,6 +126,7 @@ export const STEPS: Step[] = [
     encouragement: '영상 끝에 새로운 화면이 하나 더 생기면 잘 하고 계신 거예요!',
     reassurance: '엔딩 화면이 없어도 괜찮지만, 있으면 손님이 연락하기 훨씬 더 쉬워져요',
     placeholderLabel: '타임라인 끝부분에 엔딩 화면을 추가하는 모습',
+    screenshot: '/screenshots/step-17.jpg',
     highlight: { top: 85, left: 80, size: 16, label: '맨 끝에 추가' },
     tip: '가게 이름, 전화번호, 인스타그램 아이디를 함께 적어두면 좋아요',
   },
@@ -125,6 +137,7 @@ export const STEPS: Step[] = [
     encouragement: '음악, 글자, 효과가 순서대로 잘 나오면 잘 하고 계신 거예요!',
     reassurance: '이상한 부분이 있어도 괜찮아요, 그 부분으로 돌아가서 언제든 다시 고칠 수 있어요',
     placeholderLabel: '영상 전체를 처음부터 미리 보는 화면',
+    screenshot: '/screenshots/step-16.jpg',
     highlight: { top: 45, left: 50, size: 22, label: '재생 버튼' },
   },
   {
@@ -144,6 +157,7 @@ export const STEPS: Step[] = [
     encouragement: '완료 표시(✓)가 뜨면 영상 저장이 끝난 거예요, 잘 하고 계신 거예요!',
     reassurance: '시간이 조금 걸려도 괜찮아요, 스마트폰을 끄지만 마시고 잠깐만 기다려주세요',
     placeholderLabel: '영상 저장 진행률이 표시되는 화면',
+    screenshot: '/screenshots/step-19.jpg',
     highlight: { top: 50, left: 50, size: 24, label: '저장 중' },
   },
   {
@@ -153,6 +167,7 @@ export const STEPS: Step[] = [
     encouragement: '선택한 앱이 열리면서 영상이 함께 보이면 잘 하고 계신 거예요!',
     reassurance: '지금 바로 안 올리셔도 괜찮아요, 나중에 사진첩에서 다시 공유할 수 있어요',
     placeholderLabel: '공유하기 화면 (틱톡 / 인스타 / 유튜브 / 페이스북)',
+    screenshot: '/screenshots/step-18.jpg',
     highlight: { top: 55, left: 50, size: 22, label: '공유할 곳 선택' },
   },
   {
