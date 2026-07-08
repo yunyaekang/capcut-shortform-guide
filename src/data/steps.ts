@@ -94,7 +94,7 @@ export const STEPS: Step[] = [
     encouragement: '글자에 반짝이는 효과가 생기면 잘 하고 계신 거예요!',
     reassurance: '효과가 마음에 안 들면 다른 효과를 다시 톡 눌러서 얼마든지 바꿀 수 있어요',
     placeholderLabel: '글자 꾸밈 효과를 고르는 화면',
-    screenshot: '/screenshots/step-12.jpg',
+    screenshot: '/screenshots/step-15.jpg',
     highlight: { top: 78, left: 35, size: 18, label: '효과 탭' },
   },
   {
