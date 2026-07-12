@@ -1,4 +1,4 @@
-import { PartyPopper, Download, RotateCcw, Sparkles } from 'lucide-react'
+import { PartyPopper, Download, RotateCcw, Sparkles, Upload, ArrowUpRight } from 'lucide-react'
 import { STEPS } from '../data/steps'
 import { downloadChecklistImage } from '../lib/checklistImage'
 
@@ -41,6 +41,23 @@ export default function CompletionScreen({ onRestart, onOpenPhraseLibrary }: Com
           ))}
         </ul>
       </div>
+
+      <a
+        href="https://shorts-upload-guide.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 flex w-full items-center justify-between gap-3 rounded-2xl border-2 border-brand bg-white px-5 py-4 text-left shadow-sm transition-colors active:bg-brand-light"
+      >
+        <span className="flex items-center gap-3">
+          <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-light text-brand">
+            <Upload className="h-5 w-5" strokeWidth={2} />
+          </span>
+          <span className="text-base font-bold text-gray-900">
+            영상 올리는 방법 보러가기
+          </span>
+        </span>
+        <ArrowUpRight className="h-5 w-5 shrink-0 text-brand" />
+      </a>
 
       <div className="mt-8 w-full space-y-3">
         <button
